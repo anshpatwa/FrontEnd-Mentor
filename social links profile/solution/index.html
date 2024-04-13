@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Links profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+           
+            background-color: hsl(0, 0%, 8%);
+        
+        }
+        .container{
+            margin-left: 1500px;
+            display: grid;
+            grid-template-columns: repeat(20,50px);
+            grid-template-rows: repeat(20,50px);
+            grid-gap: 35px;
+            /* align-items: top;
+            align-content: center; */
+           
+          
+        }
+        
+       
+        .contentbox{
+            
+            grid-row:3/21 ;
+            grid-column: 4/18;
+            box-shadow: 4px 6px 90px 15px ;
+            background-color: hsl(0, 0%, 12%);
+            border-radius: 35px;
+        }
+       
+        #profilephoto{
+
+            clip-path: circle(13% at 55% 19%);
+        }
+        .info{
+           text-align:center;
+           line-height: 20px;
+            grid-row:7/9 ;
+            grid-column: 5/17;
+            
+        }
+        .twitter{
+            box-shadow: 2px 2px 50px 2px;
+            text-align: center;
+            grid-row: 10/12;
+            grid-column: 6/16;
+            background-color:hsl(0, 0%, 20%);
+            border-radius: 20px;
+        }
+        .linkedin{
+            box-shadow: 2px 2px 50px 2px;
+            text-align: center;
+            grid-row: 12/14;
+            grid-column: 6/16;
+            background-color:hsl(0, 0%, 20%);
+            border-radius: 20px;
+        }
+        .snapchat{
+            box-shadow: 2px 2px 50px 2px;
+            text-align: center;
+            grid-row: 14/16;
+            grid-column: 6/16;
+            background-color: hsl(0, 0%, 20%);
+            border-radius: 20px;
+        }
+        .instagram{
+            box-shadow: 2px 2px 50px 2px;
+           text-align:center;
+            grid-row: 16/18;
+            grid-column: 6/16;
+            background-color: hsl(0, 0%, 20%);
+            border-radius: 20px;
+        }
+        .github{
+            box-shadow: 2px 2px 50px 2px;
+            text-align: center;
+            grid-row: 18/20;
+            grid-column: 6/16;
+            background-color: hsl(0, 0%, 20%);
+            border-radius: 20px;
+        }
+        /* #boxes :hover{
+            background-color:greenyellow;
+            background-color: fill;
+            
+        } */
+        .twitter:hover,
+        .github:hover,
+        .snapchat:hover,
+        .linkedin:hover,
+        .instagram:hover {
+            background-color: greenyellow;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contentbox">
+            <img id="profilephoto" src="profile photo2.jpg" alt="" srcset="">
+            
+            </div>
+            <div class="info">
+                <h1 style="font-size: 75px; color: white;">Ansh Patwa</h1>
+                <h2 style="color: greenyellow; font-size: 38px;">Delhi,India</h2>
+                <p style="font-size: 35px; color:grey;">*Front-end developer and avid reader*</p>
+
+        </div>
+        <div id ="boxes" class="github">
+            <h1 ><a style=" color: white; font-size: 55px; text-decoration: none;" href="https://github.com/anshpatwa"><i class="fa fa-github" style="font-size:85px;color: green;"></i>GIT-HUB</a></h1>
+        </div>
+        <div id ="boxes" class="instagram">
+            <h1><a style=" color: white; font-size: 55px; text-decoration: none;" href="https://www.instagram.com/anshhhhh.?igsh=aWFiM2M1OW1iMWdm"><i class="fa fa-instagram" style="font-size:68px;color:red"></i>Instagram</a></h1>
+        </div>
+        <div id ="boxes" class="snapchat">
+            <h1><a style=" color: white; font-size: 55px; text-decoration: none;" href="https://www.snapchat.com/add/ansh_000001?share_id=uwjDrAxyPPA&locale=en-GB"><i class="fa fa-snapchat" style="font-size:80px; color: yellow;"></i>Snapchat</a></h1>
+        </div>
+        <div id ="boxes" class="linkedin">
+            <h1><a style=" color: white; font-size: 50px; text-decoration: none;" href="https://www.linkedin.com/in/ansh-patwa-82a9a9285/"><i class="fa fa-linkedin-square" style="font-size:80px;color:blue;"></i>Linked-In</a></h1>
+        </div>
+        <div id ="boxes" class="twitter">
+           <h1> <a style=" color: white; font-size: 55px; text-decoration: none;" href="https://twitter.com/ANSHPATWA15"><i class="fa fa-twitter" style="font-size:70px; color: skyblue;" ></i>Twitter</a></h1>
+        </div>
+
+    </div>
+ 
+</body>
+</html>
